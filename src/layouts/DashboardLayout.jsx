@@ -5,7 +5,7 @@ export default function DashboardLayout() {
   return (
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
-      <aside className="w-64 bg-white shadow-md flex flex-col">
+      <aside className="w-64 hidden md:flex bg-white shadow-md flex-col">
         <div className="p-4 border-b">
           <h1 className="text-xl font-bold text-blue-600">Intuition Demo</h1>
         </div>
@@ -24,7 +24,7 @@ export default function DashboardLayout() {
         </header>
 
         {/* Page Content */}
-        <main className="p-6 flex-1 overflow-y-auto">
+        <main className="flex-1 overflow-y-auto">
           <Outlet />
         </main>
       </div>

@@ -4,22 +4,23 @@ import { Button } from "./button";
 
 export default function HackathonSection() {
   return (
-    <section className="w-full bg-gray-50 py-16">
+    <section className="w-full bg-white py-16 "
+    style={{ backgroundImage: 'url("/bgimage.jpg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6">
         {/* Left side - Text content */}
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Build the Future of Identity with Intuition
           </h1>
-          <p className="text-lg text-gray-600 mb-4">
+          <p className="text-lg text-white mb-4">
             Join the hackathon to explore decentralized identity, attestations, and NFTs.
           </p>
-          <ul className="list-disc pl-5 text-gray-700 space-y-2 mb-6">
+          <ul className="list-disc pl-5 text-white space-y-2 mb-6">
             <li>Collaborate with top builders</li>
             <li>Experiment with Web3 identity</li>
             <li>Win bounties and prizes</li>
           </ul>
-          <p className="text-gray-500 italic">
+          <p className="text-white italic">
             "Your identity, verified by the network."
           </p>
         </div>
